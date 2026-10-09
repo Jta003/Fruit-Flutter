@@ -56,8 +56,9 @@ app.*.map.json
 /.ui-validation/
 /UiValidation/
 
-# Only PROJECT_DOCUMENTATION is published as project documentation.
+# Publish the repository README and PROJECT_DOCUMENTATION only.
 **/*.md
+!/README.md
 !/PROJECT_DOCUMENTATION/*.md
 /*.docx
 /*.pdf
